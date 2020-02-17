@@ -1,11 +1,11 @@
 Name:           julius
-Version:        1.2.0
+Version:        1.3.0
 Release:        1
 Summary:        An open source re-implementation of Caesar III
 License:        MIT
 Group:          Games/Other
 Url:            https://github.com/bvschaik/julius
-Source0:	https://github.com/bvschaik/julius/archive/v%{version}.tar.gz
+Source0:	https://github.com/bvschaik/julius/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  pkgconfig(sdl2)
 BuildRequires:  cmake
@@ -16,8 +16,9 @@ Julius is an open source re-implementation of Caesar III.
 
 %files
 %{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
-%{_datadir}/icons/hicolor/*/apps/%{name}.png
+%{_datadir}/applications/com.github.bvschaik.julius.desktop
+%{_datadir}/icons/hicolor/*/apps/com.github.bvschaik.julius.png
+%{_datadir}/metainfo/com.github.bvschaik.julius.metainfo.xml
 #---------------------------------------------------------
 
 %prep
@@ -28,4 +29,4 @@ Julius is an open source re-implementation of Caesar III.
 %make_build
 
 %install
-%makeinstall_std -C build
+%make_install -C build
