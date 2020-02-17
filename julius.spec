@@ -16,8 +16,9 @@ Julius is an open source re-implementation of Caesar III.
 
 %files
 %{_bindir}/%{name}
-%{_datadir}/applications/%{name}.desktop
-%{_datadir}/icons/hicolor/*/apps/%{name}.png
+%{_datadir}/applications/com.github.bvschaik.julius.desktop
+%{_datadir}/icons/hicolor/*/apps/com.github.bvschaik.julius.png
+%{_datadir}/metainfo/com.github.bvschaik.julius.metainfo.xml
 #---------------------------------------------------------
 
 %prep
