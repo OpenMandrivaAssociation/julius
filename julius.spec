@@ -1,5 +1,5 @@
 Name:           julius
-Version:        1.5.1
+Version:        1.6.0
 Release:        1
 Summary:        An open source re-implementation of Caesar III
 License:        MIT
