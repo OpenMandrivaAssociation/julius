@@ -1,6 +1,6 @@
 Name:           julius
-Version:        1.7.0
-Release:        2
+Version:        1.8.0
+Release:        1
 Summary:        An open source re-implementation of Caesar III
 License:        MIT
 Group:          Games/Other
